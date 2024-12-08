@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="eng-ca">
+  <head>
+    <meta charset="utc-8">
+    <title>Exercise 7</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Serif">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap">
+    <style>
+      body {
+        background-color: #FDEFC8;
+        margin: 0;
+        padding: 0;
+      }
+      h2 {
+        font-family: "Sen", sans serif;
+        font-size: 55px;        
+      }
+      h3 {
+        font-family: "Sen", sans serif;
+        font-size: 40px;
+        
+        font-weight: normal;
+      }
+      .body-text {
+        font-family: "Sen", sans serif;
+        font-size: 20px;
+      }
+      .topnav {
+        background-color: #515b3a;
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Vertically align items */
+        padding: 60px 20px 20px; /* Add some padding for spacing */
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .bottomnav {
+        background-color: #515b3a;
+        width: 100%; /*god help me*/
+        display: flex; /* Make the bottomnav a flex container */
+        justify-content: space-between; /* Separate the text and list */
+        align-items: center; /* Center items vertically */
+        padding: 25px 20px 10px 20px; /* Add some padding for spacing */
+        position: relative;
+        bottom: 0;
+        box-sizing: border-box;
+        
+        font-family: "Sen", sans serif;
+        font-size: 20px;
+        color: #FDEFC8;
+        
+      }
+      .top {
+        background-color: #515b3a;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+        display: flex;
+        gap: 10px; 
+        margin-left: auto; 
+        
+        font-family: "Sen", sans serif;
+        font-size: 20px;
+      }
+       .bottomlist {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+        display: flex;
+        margin-left: auto;
+      }
+      li {
+        float: left;
+        text-decoration: none;
+      }      
+      li a {
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        color: #FDEFC8;
+      }
+      li a:hover:not(.active) {
+        border-bottom: 3px solid;
+        padding-bottom: 5px;
+      }
+      .active {
+        border-bottom: 3px solid;
+        padding-bottom: 5px;
+      }
+      .logo img {
+        max-height: 25px;
+        height: auto;
+      }
+      .socials img {
+        display: flex;
+        width: 55px;
+        height: auto;
+      }
+      .pages {
+        display: flex;
+        justify-content: center; /* Horizontally */
+        align-items: center;
+        margin: 100px 100px 70px 100px;
+      }
+      .page-header {
+        width: 100%;
+        height: auto;
+      }
+      .projects-in-pages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        margin: 0px 100px 70px 100px;
+      }
+
+      .project-line-1 {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        
+        height: 600px;
+        width: 100%;
+
+        margin: 50px auto;
+        
+       
+      }
+      .prototype {
+        width: 43%;
+        height: auto;
+      }
+      
+      .project-1 {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        
+        height: 600px;
+        width: 100%;
+        border-radius: 60px;
+        
+        background-color: #515b3a;
+        color: #EDC1BB;
+      }
+      .project-text {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .div-bottom-flowers {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+      }
+      .bottom-flowers {      
+        width: 90%;
+        height: auto;
+        
+        position: absolute;
+        top: 1300;
+        z-index: -1;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="logo" href="#logo"> <img src="Ayomide Ibidapo.svg" alt="logo"></a>
+      <ul class="top">
+        <li><a href="#ux-design">UX Design</a></li>
+        <li><a href="#graphic-design">Graphic Design</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>  
+    </div>
+    
+   
+    <div class="pages">
+      <img class="page-header" src="UX Design.png" alt="UX Design Header">
+    </div>
+    
+    <div class="div-bottom-flowers">
+      <img class="bottom-flowers" src="Sakura Bottom.png" alt="Pink flowers">
+    </div>
+    
+    <div class="projects-in-pages">
+      <div class="project-line-1">
+        <img class="prototype" src="KitKash.png" alt="KitKash Prototype">
+          <div class="project-1">
+            <div class="project-text">
+            <h2 style="margin-bottom:20px;margin-top:0px;">KitKash</h2>
+            <h3 style="margin-top:0px;margin-bottom:60px">F24 uX Design Jam</h3>
+            <p class="body-text" style="margin:0px 40px 0px 40px;">My team and I were challenged to create an app which focused to solve the financial literacy disparity that occurs for Canadians between 24-35</p>
+            </div>
+          </div> 
+      </div>
+      
+       <div class="project-line-1">
+        <img class="prototype" src="DesNet.png" alt="DesNet Prototype">
+          <div class="project-1">
+            <div class="project-text">
+            <h2 style="margin-bottom:20px;margin-top:0px;">DesNet</h2>
+            <h3 style="margin-top:0px;margin-bottom:60px">UX Design Case Study</h3>
+            <p class="body-text" style="margin:0px 40px 0px 40px;">Introducing<i>DesNet</i>, a web app that connects design communities across Ontario</p>
+            </div>
+          </div> 
+      </div>
+      </div>
+    
+    
+    <div class="bottomnav">
+       <p>
+         Lets create something fun! <br>
+         mideibidapo@gmail.com <3
+       </p>
+    
+      
+        <ul class="bottomlist">
+          <li><a class="socials" href="#linkedin"><img src="Linkedin.png" alt="Linkedin Logo"></a></li>
+          <li><a class="socials" href="#twitter"><img src="Twitter.png" alt="X Logo"></a></li>
+        </ul>
+       
+    </div>
+    
+  </body>
+</html>
