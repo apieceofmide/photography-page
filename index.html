@@ -10,6 +10,7 @@
         background-color: #FDEFC8;
         margin: 0;
         padding: 0;
+        position: relative;
       }
       h2 {
         font-family: "Sen", sans serif;
@@ -149,6 +150,24 @@
         align-items: center;
         margin: 0px 150px 70px 150px;
       }    
+      .div-bottom-flowers {
+        display: flex;
+        justify-content: center;
+      }
+      .bottom-flowers {      
+        width: 90%;
+        height: auto;
+        
+        position: absolute;
+        bottom: 60px;
+        z-index: -1; /*
+          Code copied from: https://www.shecodes.io/athena/4380-how-to-set-an-image-behind-text-with-z-index#:~:text=The%20correct%20way%20to%20send,CSS%20code%20is%20given%20below.
+          Author: SheCodes
+          Name: How to Set an Image Behind Text with Z-Index
+          Description: Explains how to make things go behind other items
+          Date retrieved: 12/08/24
+          */
+      }
     </style>
   </head>
   <body>
@@ -166,7 +185,11 @@
     <div class="pages">
       <img class="page-header" src="Photography.png" alt="Photography Header">
     </div>
- 
+    
+    <div class="div-bottom-flowers">
+      <img class="bottom-flowers" src="Sakura Bottom.png" alt="Pink Sakura flowers at the bottom of page">
+    </div>
+    
     <div class="projects-in-pages">
       <img class="page-header" src="Photography Works.png" alt="A grid of different photographs (in order):A hanging round lamp, A close-up of ants on a yellow flower, a shelf full of K-pop albums, with a green paper standee of Jongseob from P1harmony, a goose on the water with its wings expanded, a streetlamp with a Chirstmas wreath around it, with the restaurant sign '-Palace,' a portrait of a person with a brick backgrounds with vines wearing a white button up, and a sign saying 'Ethel's Lounge">
     </div> 
